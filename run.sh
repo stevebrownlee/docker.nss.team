@@ -4,10 +4,10 @@
 #
 if [ -z $1 ]
 then
-  docker run -d -it -p 8081:8081 stevebrownlee/team:latest
+  docker run -d -p 8081:8081 stevebrownlee/nssteam:latest
 
 else
-  docker run -it -p 8081:8081 stevebrownlee/team:latest
+  docker run -it -p 8081:8081 stevebrownlee/nssteam:latest
 
 fi
 
